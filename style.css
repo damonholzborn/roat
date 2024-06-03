@@ -355,19 +355,19 @@ tr > td:first-child {
 	}
 
 	#row_one_info.open {
-		max-height: 400px;
+		max-height: 430px;
 	}
 
 	#row_four_info.open {
-		max-height: 200px;
+		max-height: 230px;
 	}
 
 	#row_six_info.open {
-		max-height: 750px;
+		max-height: 950px;
 	}
 
 	#row_seven_info.open {
-		max-height: 230px;
+		max-height: 250px;
 	}
 
 	.page_row {

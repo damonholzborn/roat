@@ -1,8 +1,8 @@
 {
-    "name": "RoAT Sheet",
-    "short_name": "RoAT Sheet",
-    "description": "Browser-based quick reference guide for the Soma Rumble of Ancient Times.",
-	 "icons": [
+	"name": "Reference of Ancient Times",
+	"short_name": "RoAT",
+	"description": "Browser-based quick reference guide for the SOMA Laboratory Rumble of Ancient Times.",
+	"icons": [
 		{
 			"src": "/android-chrome-192x192.png",
 			"sizes": "192x192",
@@ -14,8 +14,8 @@
 			"type": "image/png"
 		}
 	],
-    "start_url": "/index.html",
-    "theme_color": "#000000",
-    "background_color": "#000000",
-    "display": "standalone"
+	"start_url": "/index.html",
+	"theme_color": "#000000",
+	"background_color": "#000000",
+	"display": "standalone"
 }
