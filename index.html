@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#319848">
+	<meta name="msapplication-TileColor" content="#319848">
+	<meta name="theme-color" content="#222222">
+
+	<title>Reference of Ancient Times</title>
+
+	<script src="/roatsheet.js?v=6"></script>
+	<link rel="stylesheet" type="text/css" href="/style.css?v=6">
+</head>
+<body>
+
+<header id="header">
+	<div>
+		<h1>Reference of Ancient Times</h1>
+	</div>
+
+	<div>
+		<h1 id="menu_button" class="pointy">?</h1>
+	</div>
+
+	<div id="waveform_area">
+		<img src="waveforms.png" id="header_waveform">
+	</div>
+
+	<div id="welcome_message">
+
+		<span id="welcome_text">
+			<p>Welcome to the Reference of Ancient Times. This guide is a cheat sheet for the SOMA Laboratory <a href="https://somasynths.com/roat/" target="_blank">Rumble of Ancient Times</a>. Since the bulk of the text of the manual is not repeated here, this guide is not designed to be your primary source for getting to know your RoAT. Once you have a basic understanding of how the instrument works, however, I hope that you'll find this page a handy map.</p>
+
+			<p>In addition to distilling the info to the basics, this guide is designed to be mobile-friendly, so you can view it without being tied to your computer. You can <a href="https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/" target="_blank">save the guide to the homescreen of your mobile device</a> for easy mobile access.</p>
+
+			<p>If you find any errors or have any suggestions, please don't hesitate to send them to <a href="mailto:damon@rustleworks.com">damon@rustleworks.com</a>. The code is open sourced under the MIT License. If you'd like to clone it for your own purposes, <a href="https://github.com/damonholzborn/RoAT" target="_blank">you can find the source at Github</a>.</p>
+
+			<p>Happy Bleeping!</p>
+		</span>
+		<span id="contact_info">
+			<p><h3>Damon Holzborn</h3>
+			<a href="mailto: damon@rustleworks.com">damon@rustleworks.com</a></p>
+
+			<p><h3>Web</h3>
+			<a href="http://damonholzborn.com" target="_blank">damonholzborn.com</a><br>
+			<a href="http://rustleworks.com" target="_blank">rustleworks.com</a><br>
+
+			<p><h3>Bandcamp</h3>
+			<a href="https://damonholzborn.bandcamp.com" target="_blank">Damon Holzborn</a><br>
+			<a href="https://thedonkey.bandcamp.com" target="_blank">Donkey</a><br>
+			<a href="https://holzbornobrien.bandcamp.com" target="_blank">w/ John O'Brien</a></p>
+
+			<p><h3>Social</h3>
+			<a href="https://www.instagram.com/damonholzborn/" target="_blank">@damonholzborn</a> (Instagram)</p>
+		</span>
+	</div>
+</header>
+
+<div id="support_message">
+	<span id="contribute">This guide is free to use, but if you find it useful and you'd like to contribute a few bucks in support, an easy way to do so is <a href="https://damonholzborn.bandcamp.com" target="_blank">purchase something from my Bandcamp</a>. You could also just <a href="https://ko-fi.com/rustleworks" target="_blank">buy me a cup of coffee</a>.</span>
+</div>
+
+<div id="guide">
+
+		<!-- *********   Pages Header   ********* -->
+
+		<div class="page_row">
+			<div class="page_number grid_header"></div>
+			<div class="grid_header">POT 1</div>
+			<div class="grid_header">POT 2</div>
+			<div class="grid_header">POT 3</div>
+			<div class="grid_header">POT 4</div>
+		</div>
+
+		<!-- *********   Page 1   ********* -->
+
+		<div class="page_row one_value">
+			<div class="page_number">0</div>
+			<div class="page_info">Voice Frequency</div>
+		</div>
+		<div id="row_one" class="page_row one_value pointy">
+			<div class="page_number"><span id="triangle_one" class="triangle">1&blacktriangleright;</span></div>
+			<div class="page_info">Voice Waveform</div>
+		</div>
+		<div id="row_one_info" class="info_row">
+			<img src="osc_waves_0-7.png" class="waves">
+			<img src="osc_waves_8-15.png" class="waves">
+		</div>
+
+		<!-- *********   Page 2   ********* -->
+
+		<div class="page_row one_value">
+			<div class="page_number">2</div>
+			<div class="page_info">LFO Frequency</div>
+		</div>
+
+		<!-- *********   Page 3   ********* -->
+
+		<div class="page_row one_value">
+			<div class="page_number">3</div>
+			<div class="page_info">LFO Amplitude</div>
+		</div>
+
+		<!-- *********   Page 4   ********* -->
+
+		<div id="row_four" class="page_row one_value pointy">
+			<div class="page_number"><span id="triangle_four" class="triangle">4&blacktriangleright;</span></div>
+			<div class="page_info">LFO Waveform</div>
+		</div>
+		<div id="row_four_info" class="info_row">
+			<img src="lfo_waves_0-3.png" class="waves">
+			<img src="lfo_waves_4-7.png" class="waves">
+		</div>
+
+		<!-- *********   Page 5   ********* -->
+
+		<div id="row_five" class="page_row">
+			<div class="page_number">5</div>
+			<div class="page_info">Attack</div>
+			<div class="page_info">Release</div>
+			<div class="page_info">Filter Cutoff</div>
+			<div class="page_info">Filter Resonance</div>
+		</div>
+
+		<!-- *********   Page 6   ********* -->
+
+		<div id="row_six" class="page_row pointy">
+			<div class="page_number"><span id="triangle_six" class="triangle">6&blacktriangleright;</span></div>
+			<div class="page_info three_wide">Sum Algorithms</div>
+			<div class="page_info">Sum Diagram</div>
+		</div>
+		<div id="row_six_info" class="info_row">
+			<h2>Summation Diagram</h2>
+
+			<img src="mixing_algorithms.png" id="mixing_algorithms">
+
+			<h2>Summation Algorithms</h2>
+
+			<table>
+				<tr>
+					<td>0</td>
+					<td><b>Addition</b>. Simply adding together two signals.</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td><b>Addition with overflow</b>. If the sum of the signals crosses the upper or lower border, the result is directed to the opposite edge and continues growing from there.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td><b>Subtraction 1</b>. The second signal is subtracted from the first. If the first signal is lower, the result will be zero.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td><b>Subtraction 2</b>. The lower signal is subtracted from the higher signal.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td><b>Multiplication</b>. Both signals are multiplied. This effect is also called ring modulation.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td><b>Exclusive OR (XOR)</b>. In this mode, a bitwise XOR is performed between the signals. The values of each signal are 8-bit.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td><b>Frequency modulation (FM)</b>. The first signal is modulated by the second.</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td><b>Waveform modulation</b>. First, the two signals are added using the first algorithm, then the resulting signal is wave-shaped. Each node has its waveform algorithm.</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- *********   Page 7   ********* -->
+
+		<div id="row_seven" class="page_row pointy">
+			<div class="page_number"><span id="triangle_seven" class="triangle">7&blacktriangleright;</span></nobr></div>
+			<div class="page_info">Tempo</div>
+			<div class="page_info">Metronome and Sum Bypass</div>
+			<div class="page_info">Random Amount</div>
+			<div class="page_info">Random Speed</div>
+		</div>
+		<div id="row_seven_info" class="info_row">
+			<div class="further_info">
+				<p id="internal_clock" class="green">internal clock setting tempo</p>
+				<img src="circle_clock.png" class="circles">
+				<p>
+					<span id="no_clock" class="info_halftext gray">no clock, LFOs are not synced</span>
+					<span id="external_clock" class="info_halftext red">external clock<br></span>
+				</p>
+			</div>
+			<div class="further_info">
+				<p>
+					<span class="info_halftext purple">bypassing on</span>
+					<span class="info_halftext green">bypassing off<br></span>
+				</p>
+				<img src="circle_bypass.png" class="circles">
+				<p class="gray">metronome</p>
+			</div>
+		</div>
+</div>
+
+</html>
